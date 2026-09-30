@@ -1,6 +1,7 @@
 url: https://github.com/jjt98118-beep/dsh-boot-animation
 name: jjt98118-beep/dsh-boot-animation
 category: ui
+tarball: https://github.com/jjt98118-beep/dsh-boot-animation/releases/download/v0.3.1/dsh-boot-animation-0.3.1.tgz
 description:
   en: 'Plays an intro full-frame when you open DSH, when you open a new conversation, or every time you open the one you pinned. Four clips ship embedded in the code — no separate video files — and the in-app library lets you tick any number of them to rotate at random (never the same clip twice in a row), preview the rotation, or drop in your own clips. Sound plays without a click; the pin button sits beside Settings.'
   zh: '打开 DSH、打开新对话、或每次打开你钉住的那个会话时，铺满窗口播放一段片头动画。四段片头直接内嵌在代码里（不带独立视频文件）；界面里的片库可以勾选任意几段随机轮换（不会连着两次同一段）、随时预览，也能加入你自己的片子。默认带声音，无需点击；设置旁一键钉住会话。'

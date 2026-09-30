@@ -1,6 +1,6 @@
 {
   "name": "dsh-boot-animation",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "打开 DSH、新对话或你钉住的会话时，铺满窗口播放一段开机动画；可放多段视频随机轮换。Full-frame intro animation for DSH, with a multi-clip random rotation.",
   "type": "module",
   "main": "./lib/index.js",
