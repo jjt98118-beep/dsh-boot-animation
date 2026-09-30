@@ -3,8 +3,17 @@
 本仓库是 [NativeDog1/dsh-boot-animation](https://github.com/NativeDog1/dsh-boot-animation) 的**修改版**（BSD-3-Clause）。
 原始版权与许可全文见 [LICENSE](LICENSE)。
 
-## 0.3.2
+## 0.3.3
 
+### 修复
+
+- **删掉 `peerDependencies`（原来是 `react@^18.2.0`）。** 这不是整理，是修一个会导致
+  「装了没反应」的隐患：宿主的版本兼容闸门在 peer 范围对不上时会把插件**整包跳过**，
+  装上了、重启后什么也不发生，**而且不报错**。上游作者出于同样理由也刻意不声明 peer。
+  本插件 host 半边只用 `ctx.webServer`，客户端半边的 React 由宿主模块加载器提供，
+  两边都不静态依赖宿主包，因此没有需要声明的版本线。
+
+## 0.3.2
 ### 变更
 
 - **安装包体积从 15.9 MB 降到约 7.7 MB**，为的是让 tarball 在普通网络下能稳定下载。

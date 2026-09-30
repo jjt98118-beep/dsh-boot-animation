@@ -1,6 +1,6 @@
 {
   "name": "dsh-moss-boot",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "打开 DSH、打开新对话、或每次打开你钉住的那个会话时，铺满窗口播放一段片头动画。内置画面以《流浪地球》风格的太空站与量子智能体 MOSS（550W）为主题：红色独眼亮起，地球弧线从舷窗外掠过。四段片头直接内嵌在代码里（不带独立视频文件）；片库可以勾选任意几段随机轮换（不会连着两次同一段）、随时预览，也能换成你自己的视频。默认带声音，无需点击；设置旁一键钉住会话。 Full-frame intro animation for DSH themed on the Wandering Earth space station and MOSS, with a multi-clip random rotation.",
   "type": "module",
   "main": "./lib/index.js",
@@ -38,14 +38,6 @@
   ],
   "engines": {
     "node": ">=20"
-  },
-  "peerDependencies": {
-    "react": "^18.2.0"
-  },
-  "peerDependenciesMeta": {
-    "react": {
-      "optional": true
-    }
   },
   "devDependencies": {
     "tsdown": "^0.22.14",
