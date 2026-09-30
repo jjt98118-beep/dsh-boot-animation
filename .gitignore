@@ -1,1 +1,18 @@
 node_modules/
+*.tgz
+.DS_Store
+
+# 本地备份：原始内置片源的副本，不属于发布内容
+boot.mp4.original-backup
+
+# 构建日志
+build-log.txt
+
+# Debug backups made while patching the shipped artifacts
+*.bak-*
+*.orig
+*.pre-chrome
+*.pre-caption
+
+# Release output
+release/
