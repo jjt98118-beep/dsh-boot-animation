@@ -122,7 +122,7 @@ localStorage.setItem('dsh-boot-animation:boot', 'off')
 | `片头 1` | 内嵌 `lib/clips.data.js` | 443 KB |
 | `片头 2` | 内嵌 `lib/clips.data.js` | 1.11 MB |
 | `片头 3` | 内嵌 `lib/clips.data.js` | 1.11 MB |
-| `片头 4` | 内嵌 `lib/clips.data.js` | 12.66 MB |
+| `片头 4` | 内嵌 `lib/clips.data.js` | 5.08 MB |
 
 **这些片段没有落盘的 mp4 文件** —— 它们以 base64 存在 `lib/clips.data.js` 里，host 在
 第一次被请求时才 import（约 11.5 MB 的模块，如果在启动时解析，每次开 DSH 都要白付这个代价）。

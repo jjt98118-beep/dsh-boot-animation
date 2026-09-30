@@ -141,7 +141,7 @@ Nothing to add after installing — the library already offers four clips:
 | `片头 1` (intro1) | embedded in `lib/clips.data.js` | 443 KB |
 | `片头 2` (intro2) | embedded in `lib/clips.data.js` | 1.11 MB |
 | `片头 3` (intro3) | embedded in `lib/clips.data.js` | 1.11 MB |
-| `片头 4` (intro4) | embedded in `lib/clips.data.js` | 12.66 MB |
+| `片头 4` (intro4) | embedded in `lib/clips.data.js` | 5.08 MB |
 
 **There are no mp4 files on disk for these** — they are stored as base64 in
 `lib/clips.data.js`, and the host imports that module only when an embedded clip
